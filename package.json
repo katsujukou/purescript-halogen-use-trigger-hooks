@@ -1,0 +1,23 @@
+{
+  "name": "purescript-halogen-use-trigger-hooks",
+  "version": "1.0.0",
+  "author": {
+    "email": "katsujukou@gmail.com",
+    "name": "Katsujukou Kineya"
+  },
+  "license": "MIT",
+  "keywords": [
+    "purescript",
+    "halogen",
+    "hooks",
+    "use-trigger"
+  ],
+  "private": true,
+  "scripts": {
+    "build": "spago build",
+    "test": "spago test",
+    "check": "purs-tidy check src test example/src",
+    "format": "purs-tidy format-in-place src test example/src",
+    "example": "pnpm -F \"./example\" run serve"
+  }
+}

@@ -1,0 +1,15 @@
+/bower_components/
+/node_modules/
+/.pulp-cache/
+/generated-docs/
+/.psc-package/
+/.psc*
+/.purs*
+/.psa*
+/.vscode
+/.spec-results
+.spago
+output/
+output-es/
+.DS_Store
+/example/dist

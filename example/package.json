@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "scripts": {
+    "serve": "pnpm run compile && vite serve",
+    "compile": "cd .. && spago build -p example",
+    "optimize": "cd .. && purs-backend-es build",
+    "bundle": "vite build",
+    "build": "pnpm run compile && pnpm run optimize && pnpm run bundle",
+    "check": "purs-tidy check src"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}

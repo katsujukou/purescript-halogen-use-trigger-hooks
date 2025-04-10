@@ -1,0 +1,18 @@
+package:
+  name: halogen-use-trigger-hooks
+  dependencies:
+    - console
+    - effect
+    - halogen-hooks
+    - lazy
+    - prelude
+    - unsafe-reference
+  test:
+    main: Test.Main
+    dependencies:
+      - spec
+      - spec-node
+workspace:
+  packageSet:
+    registry: 63.9.1
+  extraPackages: {}
