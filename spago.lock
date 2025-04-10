@@ -85,10 +85,8 @@ workspace:
       path: ./
       core:
         dependencies:
-          - console
           - effect
           - halogen-hooks
-          - lazy
           - prelude
           - unsafe-reference
         build_plan:

@@ -1,10 +1,14 @@
 package:
   name: halogen-use-trigger-hooks
+  publish:
+    version: 1.0.1
+    license: MIT
+    location:
+      githubOwner: katsujukou
+      githubRepo: purescript-halogen-use-trigger-hooks
   dependencies:
-    - console
     - effect
     - halogen-hooks
-    - lazy
     - prelude
     - unsafe-reference
   test:
