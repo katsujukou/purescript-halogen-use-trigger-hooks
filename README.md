@@ -48,5 +48,4 @@ app = Hooks.component \_ _ -> Hooks.do
       ]
 ```
 
-Clicking the button does not trigger an immediate re-render; 
-instead, `handleClick` will run on the next tick (after a component state change).
+Clicking the button does not trigger an immediate re-render; instead, `handleClick` will run on the next tick (after a component state change).
