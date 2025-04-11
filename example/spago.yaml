@@ -1,4 +1,12 @@
 package: 
   name: example 
-  dependencies: 
+  dependencies:
+    - halogen 
+    - halogen-hooks 
     - halogen-use-trigger-hooks
+
+workspace:
+  packageSet:
+    registry: 63.10.0
+  extraPackages:
+    halogen-use-trigger-hooks: 1.0.0
