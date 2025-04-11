@@ -162,6 +162,7 @@ workspace:
           - web-uievents
       test:
         dependencies:
+          - js-promise-aff
           - spec
           - spec-node
         build_plan:
@@ -198,6 +199,8 @@ workspace:
           - integers
           - invariant
           - js-date
+          - js-promise
+          - js-promise-aff
           - lazy
           - lists
           - maybe
@@ -1260,6 +1263,14 @@ packages:
       - functions
       - maybe
       - prelude
+  js-promise-aff:
+    type: registry
+    version: 1.0.0
+    integrity: sha256-s9kml9Ei74hKlMMg41yyZp4GkbmYUwaH+gBWWrdhwec=
+    dependencies:
+      - aff
+      - foreign
+      - js-promise
   lazy:
     type: registry
     version: 6.0.0
